@@ -1,11 +1,11 @@
-<h1>Search Address</h1>
+<h1>Find Address</h1>
 
 <%= form_for @search do |f| %>
 <p>
-  <%= f.text_field :address %>
+  <%= f.text_field :address, placeholder: "Address, City, State" %>
 </p>
 <p>
-  <%= f.submit %>
+  <%= f.submit "Search!" %>
 </p>
 <% end %>
 
@@ -13,6 +13,6 @@
 
 <h1>Recent Searches</h1>
 
-<% @searches.each do |s| %>
+<% @searches.reverse.each do |s| %>
   <%= link_to s.address, s %><br />
 <% end %>
