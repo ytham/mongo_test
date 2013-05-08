@@ -1,0 +1,18 @@
+<h1>Search Address</h1>
+
+<%= form_for @search do |f| %>
+<p>
+  <%= f.text_field :address %>
+</p>
+<p>
+  <%= f.submit %>
+</p>
+<% end %>
+
+<br />
+
+<h1>Recent Searches</h1>
+
+<% @searches.each do |s| %>
+  <%= link_to s.address, s %><br />
+<% end %>

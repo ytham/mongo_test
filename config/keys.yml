@@ -1,0 +1,5 @@
+production:
+  GOOGLEMAPS_KEY: 'AIzaSyD6GIMag-JAtxYedhLcm59Ztl951Mz2650'
+
+development:
+  GOOGLEMAPS_KEY: 'AIzaSyD6GIMag-JAtxYedhLcm59Ztl951Mz2650'

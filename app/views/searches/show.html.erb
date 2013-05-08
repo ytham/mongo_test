@@ -1,0 +1,15 @@
+<% content_for :searches do %>
+  <%= render 'google_map_script' %>
+<% end %>
+
+<h1><%= @search.address %></h1>
+<p>
+  Coordinates: 
+  <%= @search.coordinates.to_s %>
+</p>
+
+<div id="google_map">
+  Map appears here.
+</div>
+
+<%= link_to 'Back to Searches', searches_path %>

@@ -1,0 +1,47 @@
+<h1>Listing projects</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @projects.each do |project| %>
+  <tr>
+    <td><%= project.name %></td>
+    <td><%= project.priority %></td>
+    <td><%= link_to 'Show', project %></td>
+    <td><%= link_to 'Edit', edit_project_path(project) %></td>
+    <td><%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Project', new_project_path %><br />
+
+<%= result = @rillow.get_zestimate('2130899475') %>
+<%= result.to_hash %>
+<br />
+
+<div id='mobile-app-disribution'>
+  <span>A link will be sent via text message.</span>
+  <input id='recipient-mobile-number' type='text' placeholder='Your mobile number'>
+  <button id='send-sms-to-phone' type='submit'>Send to my phone</button>
+</div>
+
+<script language='javascript' type='text/javascript'>
+  document.getElementById('send-sms-to-phone').onclick = function() {
+    var recipient = document.getElementById('recipient-mobile-number').value;
+    var http = new XMLHttpRequest();
+    var data = 'recipient=' + recipient + '&campaign_id=1'
+    var url = 'http://glacial-atoll-7274.herokuapp.com/send_sms/';
+    http.open('POST', url, true);
+    http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+    http.send(data);
+    alert('A text containing a link was just sent to ' + recipient);
+  };
+</script>
+
