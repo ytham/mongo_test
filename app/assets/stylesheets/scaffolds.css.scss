@@ -7,6 +7,9 @@ html, body {
 
 body {
   background-color: #fff;
+  background-image: url('/assets/background.jpg');
+  background-attachment: fixed;
+  background-size: 100%;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 1.2em;
@@ -43,6 +46,16 @@ div {
   &.field, &.actions {
     margin-bottom: 10px;
   }
+}
+
+#main {
+  text-align: center;
+  display: inline-block;
+  background-color: #fff;
+  opacity: 0.85;
+  width: 600px;
+  padding: 10px;
+  margin: 20px;
 }
 
 #notice {
