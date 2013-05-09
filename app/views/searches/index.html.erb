@@ -27,7 +27,12 @@
   <% @searches.each do |s| %>
     <tr>
       <td align="left"><%= link_to s.address, s %></td>
-      <td><%= s.score %></td>
+      <td><% if s.score.present? %>
+            <%= s.score %>
+          <% else %>
+            <font color="#aaaaaa">N/A</font>
+          <% end %>
+      </td>
     </tr>
   <% end %>
 </table>
