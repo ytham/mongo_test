@@ -20,9 +20,6 @@ class SearchesController < ApplicationController
     else
       redirect_to root_url
     end
-    #respond_to do |format| 
-    #  format.html
-    #end
   end
 
   def show
@@ -59,7 +56,7 @@ class SearchesController < ApplicationController
     end
 
     def calculate_score(income, home_price)
-      score = (1000 * ( income.to_f / home_price.to_f )).to_i
+      score = (100 * (((income.to_f/12) - (home_price.to_f/360))) / 3273).to_i
     end
 
 end
