@@ -1,8 +1,14 @@
-<h1>Find Address</h1>
+<h1>Income Freedom</h1>
+
+<div class="about">
+  This app compares the median income versus the median home price and calculates a score based on this information.  A higher score means that you will have more income freedom.<br /><br />
+</div>
+
+<h2>Search City</h2>
 
 <%= form_for @search do |f| %>
 <p>
-  <%= f.text_field :address, placeholder: "Address, City, State" %>
+  <%= f.text_field :address, placeholder: "City, State" %>
 </p>
 <p>
   <%= f.submit "Search!" %>
@@ -11,9 +17,20 @@
 
 <br />
 
-<h1>Recent Searches</h1>
+<h2>Recent Searches</h2>
 
-<% @searches.reverse.each do |s| %>
-  <%= link_to s.address, s %>
-  (<%= s.score %>)<br />
-<% end %>
+<table align="center">
+  <tr>
+    <td align="left"><b>City</b></td>
+    <td><b>Score</b></td>
+  </tr>
+  <% @searches.each do |s| %>
+    <tr>
+      <td align="left"><%= link_to s.address, s %></td>
+      <td><%= s.score %></td>
+    </tr>
+  <% end %>
+</table>
+
+<br /><br />
+Created by Yu Jiang Tham

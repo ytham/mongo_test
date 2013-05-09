@@ -1,6 +1,6 @@
 class SearchesController < ApplicationController
   def index
-    @searches = Search.all
+    @searches = Search.all.reverse.first(20)
     @search = Search.new
     respond_to do |format|
       format.html

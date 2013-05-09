@@ -78,8 +78,17 @@ div {
   }
 }
 
+tr:nth-child(even) {
+    background-color: #EEEEEE;
+}
+
 h1 {
   font-size: 2.5em;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 2em;
   font-weight: 100;
 }
 
@@ -105,6 +114,11 @@ input[type="text"] {
   font-size: 2.5em;
   font-weight: 100;
   line-height: 0.8em;
+}
+
+.about {
+  display: inline-block;
+  width: 550px;
 }
 
 #google_map {
