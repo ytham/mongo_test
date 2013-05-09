@@ -1,3 +1,10 @@
+$highlightColor: #7FFF00;
+$highlightDarker: #5CCC00;
+
+html, body {
+  height: 100%;
+}
+
 body {
   background-color: #fff;
   color: #333;
@@ -5,6 +12,8 @@ body {
   font-size: 1.2em;
   line-height: 20px;
   text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 p, ol, ul, td {
@@ -26,7 +35,7 @@ a {
   }
   &:hover {
     color: #fff;
-    background-color: #7FFF00;
+    background-color: $highlightColor;
   }
 }
 
@@ -87,9 +96,45 @@ input[type="text"] {
   width: 450px;
 }
 
+.highlight {
+  color: $highlightDarker;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 2.5em;
+  font-weight: 100;
+  line-height: 0.8em;
+}
+
 #google_map {
-  width: 800px;
-  height: 400px;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: -10px;
   margin: 10px auto;
   background-color: #000000;
+}
+
+#overlay_top {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 85px;
+  padding-top: 5px;
+  background-color: #fff;
+  opacity: 0.85;
+  z-index: 99;
+}
+
+#overlay_bottom {
+  position: absolute;
+  bottom: 0px;
+  height: 70px;
+  width: 100%;
+  padding-top: 5px;
+  background-color: #fff;
+  opacity: 0.85;
+  z-index: 98;
 }

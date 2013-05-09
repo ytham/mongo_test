@@ -3,7 +3,7 @@ class ProjectsController < ApplicationController
   # GET /projects.json
   def index
     @projects = Project.all
-    @rillow = Rillow.new('')
+    @rillow = Rillow.new('X1-ZWz1bgh3iq3si3_af1tq')
 
     respond_to do |format|
       format.html # index.html.erb

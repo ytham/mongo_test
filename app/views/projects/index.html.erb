@@ -18,13 +18,26 @@
 <% end %>
 </table>
 
+<br />
+
+<%= link_to 'New Project', new_project_path %>
+
 <br /><br />
 
-<%= link_to 'New Project', new_project_path %><br />
+<% result = @rillow.get_demographics(city: "Cupertino", state: "California").to_json %>
 
-<%= result = @rillow.get_zestimate('2130899475') %>
-<%= result.to_hash %>
-<br />
+<i><%= JSON(result)["response"][0]["pages"][0]["page"][0]["tables"][0]["table"][0]["data"][0]["attribute"][1]["values"][0]["neighborhood"][0]["value"][0]["content"].reject(&:blank?) %></i><br /><br />
+
+
+
+<xmp>
+  <p>Some code</p>
+  <br />
+
+  Great scott!
+</xmp>
+
+<br /><br />
 
 <div id='mobile-app-disribution'>
   <span>A link will be sent via text message.</span>

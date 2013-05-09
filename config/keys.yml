@@ -1,5 +1,7 @@
 production:
   GOOGLEMAPS_KEY: 'AIzaSyD6GIMag-JAtxYedhLcm59Ztl951Mz2650'
+  ZILLOW_KEY: 'X1-ZWz1bgh3iq3si3_af1tq'
 
 development:
   GOOGLEMAPS_KEY: 'AIzaSyD6GIMag-JAtxYedhLcm59Ztl951Mz2650'
+  ZILLOW_KEY: 'X1-ZWz1bgh3iq3si3_af1tq'

@@ -2,13 +2,19 @@
   <%= render 'google_map_script' %>
 <% end %>
 
-<h1><%= @search.address %></h1>
+<div id="overlay_top">
+  <span class="title"><%= @search.address %></span>
 <p>
-  Coordinates: <%= @search.coordinates.to_s %>
+  <span class="highlight">Income Freedom Score: <%= @search.score %></span>
 </p>
-
-<div id="google_map">
-  Map appears here.
 </div>
 
-<%= link_to 'Back to Searches', searches_path %>
+<div id="google_map">
+  Map
+</div>
+
+<div id="overlay_bottom">
+  Median Income: <b>$<%= @search.median_income %></b> |
+  Median Home Price: <b>$<%= @search.median_home_price %></b><br /><br />
+  <%= link_to 'Back to Searches', searches_path %>
+</div>

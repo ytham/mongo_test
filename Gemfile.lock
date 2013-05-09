@@ -121,6 +121,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   geocoder
   jquery-rails
+  json
   mongoid
   rails (= 3.2.13)
   rillow

@@ -1,10 +1,14 @@
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyD6GIMag-JAtxYedhLcm59Ztl951Mz2650&sensor=false"></script>
 <script type="text/javascript">
   function initialize() {
-    var myLatLng = new google.maps.LatLng(<%= @search.coordinates[1] %>, <%= @search.coordinates[0] %>);
+    var myLatLng = new google.maps.LatLng(<%= @search.coordinates[0] %>, <%= @search.coordinates[1] %>);
     var mapOptions = {
       center: myLatLng,
-      zoom: 16,
+      zoom: 14,
+      panControl: false,
+      zoomControl: false,
+      mapTypeControl: false,
+      streetViewControl: false,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
     var map = new google.maps.Map(document.getElementById("google_map"), mapOptions);
@@ -15,6 +19,5 @@
       title: "<%= @search.address %>"
     });
   }
-
   google.maps.event.addDomListener(window, 'load', initialize);
 </script>

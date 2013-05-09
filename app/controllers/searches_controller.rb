@@ -8,13 +8,21 @@ class SearchesController < ApplicationController
   end
 
   def create
+    @rillow = Rillow.new('X1-ZWz1bgh3iq3si3_af1tq')
     @search = Search.create(params[:search])
     @search.coordinates = Geocoder.coordinates(@search.address)
+    result = @rillow.get_demographics(city: @search.city, state: @search.state).to_json
+    @search.median_home_price = get_median_home_price(result)
+    @search.median_income = get_median_income(result)
+    @search.score = calculate_score(@search.median_income, @search.median_home_price)
     if @search.save
       redirect_to @search
     else
       redirect_to root_url
     end
+    #respond_to do |format| 
+    #  format.html
+    #end
   end
 
   def show
@@ -31,4 +39,27 @@ class SearchesController < ApplicationController
       format.js
     end
   end
+
+  private
+
+    def get_median_home_price(result)
+      median_home_price = JSON(result)["response"][0]["pages"][0]["page"][0]["tables"][0]["table"][0]["data"][0]["attribute"][1]["values"][0]["city"][0]["value"][0]["content"]
+      if median_home_price.blank?
+        median_home_price = JSON(result)["response"][0]["pages"][0]["page"][0]["tables"][0]["table"][0]["data"][0]["attribute"][1]["values"][0]["city"][0]["value"][0]["content"]
+      end
+      median_home_price
+    end
+
+    def get_median_income(result)
+      median_income = JSON(result)["response"][0]["pages"][0]["page"][2]["tables"][0]["table"][0]["data"][0]["attribute"][0]["values"][0]["city"][0]["value"][0]["content"]
+      if median_income.blank?
+        median_income = JSON(result)["response"][0]["pages"][0]["page"][2]["tables"][0]["table"][0]["data"][0]["attribute"][0]["values"][0]["city"][0]["value"][0]["content"]
+      end
+      median_income
+    end
+
+    def calculate_score(income, home_price)
+      score = (1000 * ( income.to_f / home_price.to_f )).to_i
+    end
+
 end
