@@ -21,4 +21,6 @@ class Search
   field :median_income, type: Integer
   field :median_home_price, type: Integer
   field :score, type: Integer
+
+  validates_presence_of :address
 end
