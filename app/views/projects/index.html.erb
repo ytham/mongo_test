@@ -24,10 +24,10 @@
 
 <br /><br />
 
-<% result = @rillow.get_demographics(city: "Cupertino", state: "California").to_json %>
+<% result = @rillow.get_demographics(city: "Las Vegas", state: "Nevada").to_json %>
 
-<i><%= JSON(result)["response"][0]["pages"][0]["page"][0]["tables"][0]["table"][0]["data"][0]["attribute"][1]["values"][0]["neighborhood"][0]["value"][0]["content"].reject(&:blank?) %></i><br /><br />
 
+<%= result %>
 
 
 <xmp>
