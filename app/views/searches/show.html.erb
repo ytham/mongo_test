@@ -3,10 +3,25 @@
 <% end %>
 
 <div id="overlay_top">
-  <span class="title"><%= @search.city %>, <%= @search.state %></span>
-<p>
-  <span class="highlight">Income Freedom Score: <%= @search.score %></span>
-</p>
+  <span class="title"><%= @search.address %></span>
+
+  <div id="freedom_score">
+    <span class="highlight">Income Freedom Score: 
+      <% if @search.score == 0 %>
+        N/A
+      <% else %>
+        <%= @search.score %>
+      <% end %>
+    </span>
+  </div>
+
+<div class="search_float">
+  <%= form_for @new_search do |f| %>
+    <%= f.text_field :input, placeholder: "Address, City, State", class: "search_float_input" %>
+    <%= f.submit "Search!", class: "search_float_input" %>
+  <% end %>
+</div>
+
 </div>
 
 <div id="google_map">
@@ -14,7 +29,19 @@
 </div>
 
 <div id="overlay_bottom">
-  Median Income: <b>$<%= @search.median_income %></b> |
-  Median Home Price: <b>$<%= @search.median_home_price %></b><br /><br />
+  Median Income: 
+    <% if @search.median_income.present? %>
+      <b>$<%= @search.median_income %></b> 
+    <% else %>
+      <span class="not_available">N/A</span>
+    <% end %>
+      |
+  Median Home Price: 
+    <% if @search.median_home_price.present? %>
+      <b>$<%= @search.median_home_price %></b> 
+    <% else %>
+      <span class="not_available">N/A</span>
+    <% end %>
+  <br /><br />
   <%= link_to 'Back to Searches', searches_path %>
 </div>

@@ -1,0 +1,1955 @@
+{
+  "xmlns:Demographics": "http://www.zillow.com/static/xsd/Demographics.xsd",
+  "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "xsi:schemaLocation": "http://www.zillow.com/static/xsd/Demographics.xsd http://www.zillowstatic.com/vstatic/419b583f682a74b83f007039dd9c49f8/static/xsd/Demographics.xsd",
+  "request": [
+    {
+      "regionid": [
+        "268385"
+      ]
+    }
+  ],
+  "message": [
+    {
+      "text": [
+        "Request successfully processed"
+      ],
+      "code": [
+        "0"
+      ]
+    }
+  ],
+  "response": [
+    {
+      "region": [
+        {
+          "id": [
+            "268385"
+          ],
+          "state": [
+            "California"
+          ],
+          "city": [
+            "San Francisco"
+          ],
+          "neighborhood": [
+            "Pacific Heights"
+          ],
+          "latitude": [
+            "37.792469"
+          ],
+          "longitude": [
+            "-122.435078"
+          ],
+          "zmmrateurl": [
+            "http://www.zillow.com/mortgage-rates/ca/san-francisco/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "main": [
+            "http://www.zillow.com/pacific-heights-san-francisco-ca/"
+          ],
+          "affordability": [
+            "http://www.zillow.com/local-info/CA-San-Francisco/Pacific-Heights-home-value/r_268385/"
+          ],
+          "homesandrealestate": [
+            "http://www.zillow.com/local-info/CA-San-Francisco/Pacific-Heights-homes/r_268385/"
+          ],
+          "people": [
+            "http://www.zillow.com/local-info/CA-San-Francisco/Pacific-Heights-people/r_268385/"
+          ],
+          "forSale": [
+            "http://www.zillow.com/pacific-heights-san-francisco-ca/"
+          ],
+          "forSaleByOwner": [
+            "http://www.zillow.com/pacific-heights-san-francisco-ca/fsbo/"
+          ],
+          "foreclosures": [
+            "http://www.zillow.com/pacific-heights-san-francisco-ca/pmf_pt/"
+          ],
+          "recentlySold": [
+            "http://www.zillow.com/pacific-heights-san-francisco-ca/sold/"
+          ]
+        }
+      ],
+      "charts": [
+        {
+          "chart": [
+            {
+              "name": [
+                "Median Condo Value"
+              ],
+              "url": [
+                "http://www.zillow.com/app?chartType=affordability_avgCondoValue&graphType=barChart&regionId=268385&regionType=8&service=chart"
+              ]
+            },
+            {
+              "name": [
+                "Median Home Value"
+              ],
+              "url": [
+                "http://www.zillow.com/app?chartType=affordability_avgHomeValue&graphType=barChart&regionId=268385&regionType=8&service=chart"
+              ]
+            },
+            {
+              "name": [
+                "Dollars Per Square Feet"
+              ],
+              "url": [
+                "http://www.zillow.com/app?chartType=affordability_pricePerSqft&graphType=barChart&regionId=268385&regionType=8&service=chart"
+              ]
+            },
+            {
+              "name": [
+                {
+                  "deprecated": "true",
+                  "content": "Zillow Home Value Index Distribution"
+                }
+              ],
+              "url": [
+                "http://www.zillow.com/app?chartType=affordability_ZindexByDistribution&graphType=barChart&regionId=268385&regionType=8&service=chart"
+              ]
+            },
+            {
+              "name": [
+                "Home Type"
+              ],
+              "url": [
+                "http://www.zillow.com/app?chartType=home_homeType&graphType=barChart&regionId=268385&regionType=8&service=chart"
+              ]
+            },
+            {
+              "name": [
+                {
+                  "deprecated": "true",
+                  "content": "Owners vs. Renters"
+                }
+              ],
+              "url": [
+                "http://www.zillow.com/app?chartType=home_ownVsRent&graphType=barChart&regionId=268385&regionType=8&service=chart"
+              ]
+            },
+            {
+              "name": [
+                "Home Size in Square Feet"
+              ],
+              "url": [
+                "http://www.zillow.com/app?chartType=home_homeSize&graphType=barChart&regionId=268385&regionType=8&service=chart"
+              ]
+            },
+            {
+              "name": [
+                "Year Built"
+              ],
+              "url": [
+                "http://www.zillow.com/app?chartType=home_yearBuilt&graphType=barChart&regionId=268385&regionType=8&service=chart"
+              ]
+            }
+          ]
+        }
+      ],
+      "market": [
+        {
+          "deprecated": "true"
+        }
+      ],
+      "pages": [
+        {
+          "page": [
+            {
+              "name": [
+                "Affordability"
+              ],
+              "tables": [
+                {
+                  "table": [
+                    {
+                      "name": [
+                        "Affordability Data"
+                      ],
+                      "data": [
+                        {
+                          "attribute": [
+                            {
+                              "name": [
+                                "Zillow Home Value Index"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "1376200"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "801600"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "157600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Median Single Family Home Value"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "4508600"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "805000"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "157600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Median Condo Value"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "1052400"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "787400"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "156200"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Median 2-Bedroom Home Value"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "1079900"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "782400"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "117600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Median 3-Bedroom Home Value"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "1984500"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "929200"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "150700"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Median 4-Bedroom Home Value"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "3885100"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "1095600"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "249000"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Percent Homes Decreasing"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.022"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.02"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.266"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Percent Listing Price Reduction"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.127"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.088"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.258"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Median List Price Per Sq Ft"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "919"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "613"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "98"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Median List Price"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "1650000"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "829000"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "189000"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Median Sale Price"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "1345000"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "805500"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "196100"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Homes For Sale"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        "0"
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        "0"
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        "0"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Homes Recently Sold"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        "14"
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        "361"
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        "336948"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Property Tax"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "8995"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "4694"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "2086"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Turnover (Sold Within Last Yr.)"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.062"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.044"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.036"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Median Value Per Sq Ft"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "871"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "702"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "USD",
+                                          "content": "109"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "1-Yr. Change"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.236"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.204"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.051"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Homes For Sale By Owner"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "New Construction"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Foreclosures"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": [
+                "Homes & Real Estate"
+              ],
+              "tables": [
+                {
+                  "table": [
+                    {
+                      "name": [
+                        "Homes & Real Estate Data"
+                      ],
+                      "data": [
+                        {
+                          "attribute": [
+                            {
+                              "name": [
+                                "Owners"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.26463734"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.34975736"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.66268764"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Renters"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.73536266"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.65024264"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.33731236"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Median Home Size (Sq. Ft.)"
+                              ],
+                              "values": [
+                                {
+                                  "city": [
+                                    {
+                                      "value": [
+                                        "1478"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Avg. Year Built"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        "1922"
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        "1935"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Single-Family Homes"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.2123766447368"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.5184817019805"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Condos"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.5353618421052"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.2424987304297"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": [
+                        "BuiltYear"
+                      ],
+                      "data": [
+                        {
+                          "attribute": [
+                            {
+                              "name": [
+                                "<1900"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.2194867515126"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                ">2000"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.0381806801585"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "1900-1919"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.2503651157938"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "1920-1939"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.221781765074"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "1940-1959"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.0609221781765"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "1960-1979"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.159816398915"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "1980-1999"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.0494471103692"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": [
+                        "Census Summary-HomeType"
+                      ],
+                      "data": [
+                        {
+                          "attribute": [
+                            {
+                              "name": [
+                                "Condo"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.5353618421052"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Other"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.2522615131578"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "SingleFamily"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.2123766447368"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": [
+                        "Census Summary-Occupancy"
+                      ],
+                      "data": [
+                        {
+                          "attribute": [
+                            {
+                              "name": [
+                                "Own"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.26463734"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Rent"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.73536266"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": [
+                "People"
+              ],
+              "tables": [
+                {
+                  "table": [
+                    {
+                      "name": [
+                        "People Data"
+                      ],
+                      "data": [
+                        {
+                          "attribute": [
+                            {
+                              "name": [
+                                "Median Household Income"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                          "currency": "USD",
+                                          "content": "91573.2284477669"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                          "currency": "USD",
+                                          "content": "55221"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                          "currency": "USD",
+                                          "content": "44512.0130806292"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Single Males"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.24140610378683"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.254735377064791"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.146462187349365"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Single Females"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.236252516612624"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.192831556971761"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.124578258618535"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Median Age"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        "40"
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        "39"
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        "36"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Homes With Kids"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.0913236932223541"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.192820979232985"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        {
+                                          "type": "percent",
+                                          "content": "0.313623902816284"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Average Household Size"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        "1.65441691800954"
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        "2.3"
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        "2.58883240001203"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Average Commute Time (Minutes)"
+                              ],
+                              "values": [
+                                {
+                                  "neighborhood": [
+                                    {
+                                      "value": [
+                                        "31.184324701092933"
+                                      ]
+                                    }
+                                  ],
+                                  "city": [
+                                    {
+                                      "value": [
+                                        "32.17240221756265"
+                                      ]
+                                    }
+                                  ],
+                                  "nation": [
+                                    {
+                                      "value": [
+                                        "26.375545725891282"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": [
+                        "Census Summary-AgeDecade"
+                      ],
+                      "data": [
+                        {
+                          "attribute": [
+                            {
+                              "name": [
+                                ">=70s"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.0910081215311956"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "0s"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.0511537298230876"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "10s"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.0336567945014273"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "20s"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.195252393762271"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "30s"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.28204504622935"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "40s"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.149692623717351"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "50s"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.120376022939932"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "60s"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.0768152674953856"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": [
+                        "Census Summary-CommuteTime"
+                      ],
+                      "data": [
+                        {
+                          "attribute": [
+                            {
+                              "name": [
+                                "<10min"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.057167013424989"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                ">=60min"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.125717461984965"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "10-20min"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.276661000406085"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "20-30min"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.2234269817409"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "30-45min"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.19049580744038"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "45-60min"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.126531735002681"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": [
+                        "Census Summary-Household"
+                      ],
+                      "data": [
+                        {
+                          "attribute": [
+                            {
+                              "name": [
+                                "NoKids"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.908676306777646"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "WithKids"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.0913236932223541"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": [
+                        "Census Summary-RelationshipStatus"
+                      ],
+                      "data": [
+                        {
+                          "attribute": [
+                            {
+                              "name": [
+                                "Divorced-Female"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.0610037671929047"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Divorced-Male"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.0371035004842415"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Married-Female"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.196218452373169"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Married-Male"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.184908578795529"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Single-Female"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.236252516612624"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Single-Male"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.24140610378683"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Widowed-Female"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.0355180870938779"
+                                }
+                              ]
+                            },
+                            {
+                              "name": [
+                                "Widowed-Male"
+                              ],
+                              "value": [
+                                {
+                                  "type": "percent",
+                                  "content": "0.00758899366082338"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "segmentation": [
+                {
+                  "liveshere": [
+                    {
+                      "title": [
+                        "Power Singles"
+                      ],
+                      "name": [
+                        "High-income urban singles."
+                      ],
+                      "description": [
+                        "Highly educated professionals, many with advanced degrees. They draw a handsome salary and have reasonable living expenses while living a hip, upscale life in an urban center. "
+                      ]
+                    },
+                    {
+                      "title": [
+                        "Multi-lingual Urbanites"
+                      ],
+                      "name": [
+                        "Urban dwellers who speak more than one language."
+                      ],
+                      "description": [
+                        "Some have a high school or college education, and they work in a variety of occupations. Moderate to upper-scale earning potential."
+                      ]
+                    },
+                    {
+                      "title": [
+                        "Bright Lights, Big City"
+                      ],
+                      "name": [
+                        "Very mobile singles living in the city."
+                      ],
+                      "description": [
+                        "Singles ranging in age from early 20s to mid-40s who have moved to an urban setting. Most rent their apartment or condo. Some have a college education and work in services and the professional sector."
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "uniqueness": [
+                {
+                  "category": [
+                    {
+                      "type": "Education",
+                      "characteristic": [
+                        "Bachelor's degrees",
+                        "Master's degrees",
+                        "Professional school degrees"
+                      ]
+                    },
+                    {
+                      "type": "Employment",
+                      "characteristic": [
+                        "Self-employed (unincorporated businesses)",
+                        "Work in arts, design, entertainment, sports, or media occupations",
+                        "Work in business and financial occupations",
+                        "Work in computer or mathematical occupations",
+                        "Work in legal occupations",
+                        "Work in management-level occupations",
+                        "Work in sales and related occupations"
+                      ]
+                    },
+                    {
+                      "type": "People & Culture",
+                      "characteristic": [
+                        "Born in the Midwest",
+                        "Born in the Northeast",
+                        "Born in the South",
+                        "Single females",
+                        "Single males",
+                        "Speak French (incl. Patois, Cajun)",
+                        "Wealthy retirees"
+                      ]
+                    },
+                    {
+                      "type": "Transportation",
+                      "characteristic": [
+                        "Get to work by bus",
+                        "Walk to work",
+                        "Work at home"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

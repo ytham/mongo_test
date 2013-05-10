@@ -2,14 +2,14 @@
 <h1>Income Freedom</h1>
 
 <div class="about">
-  This app compares the median income versus the median home price and calculates a score based on this information.  A higher score means that you will have more income freedom.  The US median is 100.  Information is not available for all cities.  <br /><br />
+  When you input an address, this app compares the median income versus the median home price in that house's neighborhood and calculates a score based on this information.  A higher score means that you will have more income freedom.  The US median is 100.  Information is not available for all neighborhoods.  <br /><br />
 </div>
 
 <h2>Search City</h2>
 
 <%= form_for @search do |f| %>
 <p>
-  <%= f.text_field :address, placeholder: "City, State" %>
+  <%= f.text_field :input, placeholder: "Address, City, State" %>
 </p>
 <p>
   <%= f.submit "Search!" %>
@@ -31,7 +31,7 @@
       <td><% if s.score.present? %>
             <%= s.score %>
           <% else %>
-            <font color="#aaaaaa">N/A</font>
+            <span class="not_available">N/A</span>
           <% end %>
       </td>
     </tr>
@@ -39,5 +39,7 @@
 </table>
 
 <br /><br />
-Created by Yu Jiang Tham
+Created by Yu Jiang Tham<br />
+<span class="howtoblock">Powered by Zillow: 
+&copy; Zillow, Inc., 2006-2013. Use is subject to <a href="/corp/Terms.htm">Terms of Use</a>.  <a href="/wikipages/What-is-a-Zestimate/">What's a Zestimate?</a></span>
 </div>

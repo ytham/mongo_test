@@ -1,95 +1,95 @@
 {
-"xmlns:Demographics":"http://www.zillow.com/static/xsd/Demographics.xsd",
-"xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance",
-"xsi:schemaLocation":"http://www.zillow.com/static/xsd/Demographics.xsd http://www.zillowstatic.com/vstatic/ab0070e0b702ec0820aa0388637dcc68/static/xsd/Demographics.xsd",
-"request":[{
-"state":["Texas"],
-"city":["Dallas"],
-"neighborhood":["Oak Lawn"]
-}
+  "xmlns:Demographics":"http://www.zillow.com/static/xsd/Demographics.xsd",
+  "xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance",
+  "xsi:schemaLocation":"http://www.zillow.com/static/xsd/Demographics.xsd http://www.zillowstatic.com/vstatic/ab0070e0b702ec0820aa0388637dcc68/static/xsd/Demographics.xsd",
+  "request":[{
+    "state":["Texas"],
+    "city":["Dallas"],
+    "neighborhood":["Oak Lawn"]
+  }
+  ],
+  "message":[{
+    "text":["Request successfully processed"],
+    "code":["0"]
+    }
+    ],
+  "response":[{
+    "region":[{
+    "id":["274835"],
+    "state":["Texas"],
+    "city":["Dallas"],
+    "neighborhood":["Oak Lawn"],
+    "latitude":["32.810175"],
+    "longitude":["-96.811567"],
+    "zmmrateurl":["http://www.zillow.com/mortgage-rates/tx/dallas/"]
+    }
+    ],
+  "links":[{
+  "main":["http://www.zillow.com/oak-lawn-dallas-tx/"],
+  "affordability":["http://www.zillow.com/local-info/TX-Dallas/Oak-Lawn-home-value/r_274835/"],
+  "homesandrealestate":["http://www.zillow.com/local-info/TX-Dallas/Oak-Lawn-homes/r_274835/"],
+  "people":["http://www.zillow.com/local-info/TX-Dallas/Oak-Lawn-people/r_274835/"],
+  "forSale":["http://www.zillow.com/oak-lawn-dallas-tx/"],
+  "forSaleByOwner":["http://www.zillow.com/oak-lawn-dallas-tx/fsbo/"],
+  "foreclosures":["http://www.zillow.com/oak-lawn-dallas-tx/pmf_pt/"],
+  "recentlySold":["http://www.zillow.com/oak-lawn-dallas-tx/sold/"]
+  }
+  ],
+  "charts":[{
+    "chart":[{
+    "name":["Median Condo Value"],
+    "url":["http://www.zillow.com/app?chartType=affordability_avgCondoValue&graphType=barChart&regionId=274835&regionType=8&service=chart"]
+    }
+    ,
+    {
+    "name":["Median Home Value"],
+    "url":["http://www.zillow.com/app?chartType=affordability_avgHomeValue&graphType=barChart&regionId=274835&regionType=8&service=chart"]
+    }
+    ,
+    {
+    "name":["Dollars Per Square Feet"],
+    "url":["http://www.zillow.com/app?chartType=affordability_pricePerSqft&graphType=barChart&regionId=274835&regionType=8&service=chart"]
+    }
+    ,
+    {
+    "name":[{
+    "deprecated":"true",
+    "content":"Zillow Home Value Index Distribution"
+    }
+    ],
+    "url":["http://www.zillow.com/app?chartType=affordability_ZindexByDistribution&graphType=barChart&regionId=274835&regionType=8&service=chart"]
+    }
+    ,
+    {
+    "name":["Home Type"],
+    "url":["http://www.zillow.com/app?chartType=home_homeType&graphType=barChart&regionId=274835&regionType=8&service=chart"]
+    }
+    ,
+    {
+    "name":[{
+    "deprecated":"true",
+    "content":"Owners vs. Renters"
+    }
+    ],
+    "url":["http://www.zillow.com/app?chartType=home_ownVsRent&graphType=barChart&regionId=274835&regionType=8&service=chart"]
+    }
+    ,
+    {
+    "name":["Home Size in Square Feet"],
+    "url":["http://www.zillow.com/app?chartType=home_homeSize&graphType=barChart&regionId=274835&regionType=8&service=chart"]
+    }
+    ,
+    {
+    "name":["Year Built"],
+    "url":["http://www.zillow.com/app?chartType=home_yearBuilt&graphType=barChart&regionId=274835&regionType=8&service=chart"]
+    }
+    ]
+    }
 ],
-"message":[{
-"text":["Request successfully processed"],
-"code":["0"]
-}
-],
-"response":[{
-"region":[{
-"id":["274835"],
-"state":["Texas"],
-"city":["Dallas"],
-"neighborhood":["Oak Lawn"],
-"latitude":["32.810175"],
-"longitude":["-96.811567"],
-"zmmrateurl":["http://www.zillow.com/mortgage-rates/tx/dallas/"]
-}
-],
-"links":[{
-"main":["http://www.zillow.com/oak-lawn-dallas-tx/"],
-"affordability":["http://www.zillow.com/local-info/TX-Dallas/Oak-Lawn-home-value/r_274835/"],
-"homesandrealestate":["http://www.zillow.com/local-info/TX-Dallas/Oak-Lawn-homes/r_274835/"],
-"people":["http://www.zillow.com/local-info/TX-Dallas/Oak-Lawn-people/r_274835/"],
-"forSale":["http://www.zillow.com/oak-lawn-dallas-tx/"],
-"forSaleByOwner":["http://www.zillow.com/oak-lawn-dallas-tx/fsbo/"],
-"foreclosures":["http://www.zillow.com/oak-lawn-dallas-tx/pmf_pt/"],
-"recentlySold":["http://www.zillow.com/oak-lawn-dallas-tx/sold/"]
-}
-],
-"charts":[{
-"chart":[{
-"name":["Median Condo Value"],
-"url":["http://www.zillow.com/app?chartType=affordability_avgCondoValue&graphType=barChart&regionId=274835&regionType=8&service=chart"]
-}
-,
-{
-"name":["Median Home Value"],
-"url":["http://www.zillow.com/app?chartType=affordability_avgHomeValue&graphType=barChart&regionId=274835&regionType=8&service=chart"]
-}
-,
-{
-"name":["Dollars Per Square Feet"],
-"url":["http://www.zillow.com/app?chartType=affordability_pricePerSqft&graphType=barChart&regionId=274835&regionType=8&service=chart"]
-}
-,
-{
-"name":[{
-"deprecated":"true",
-"content":"Zillow Home Value Index Distribution"
-}
-],
-"url":["http://www.zillow.com/app?chartType=affordability_ZindexByDistribution&graphType=barChart&regionId=274835&regionType=8&service=chart"]
-}
-,
-{
-"name":["Home Type"],
-"url":["http://www.zillow.com/app?chartType=home_homeType&graphType=barChart&regionId=274835&regionType=8&service=chart"]
-}
-,
-{
-"name":[{
-"deprecated":"true",
-"content":"Owners vs. Renters"
-}
-],
-"url":["http://www.zillow.com/app?chartType=home_ownVsRent&graphType=barChart&regionId=274835&regionType=8&service=chart"]
-}
-,
-{
-"name":["Home Size in Square Feet"],
-"url":["http://www.zillow.com/app?chartType=home_homeSize&graphType=barChart&regionId=274835&regionType=8&service=chart"]
-}
-,
-{
-"name":["Year Built"],
-"url":["http://www.zillow.com/app?chartType=home_yearBuilt&graphType=barChart&regionId=274835&regionType=8&service=chart"]
-}
-]
-}
-],
-"market":[{
-"deprecated":"true"
-}
-],
+  "market":[{
+  "deprecated":"true"
+  }
+  ],
 "pages":[{
 "page":[{
 "name":["Affordability"],
@@ -97,1053 +97,1064 @@
 "table":[{
 "name":["Affordability Data"],
 "data":[{
-"attribute":[{
-"name":["Zillow Home Value Index"],
-"values":[{
-"nation":[{
-"value":[{
-"type":"USD",
-"content":"157600"
-}
-]
-}
-]
-}
-]
-}
+  "attribute":[{
+    "name":["Zillow Home Value Index"],
+    "values":[{
+      "nation":[{
+        "value":[{
+          "type":"USD",
+          "content":"157600"
+          }
+        ]
+        }
+      ]
+      }
+    ]
+    },
+    {
+      "name":["Median Single Family Home Value"],
+      "values":[{
+        "neighborhood":[{
+          "value":[{
+            "type":"USD",
+            "content":"195600"
+          }]
+        }],
+        "nation":[{
+          "value":[{
+            "type":"USD",
+            "content":"157600"
+          }
+          ]
+        }
+        ]
+      }
+      ]
+    }
 ,
-{
-"name":["Median Single Family Home Value"],
-"values":[{
-"neighborhood":[{
-"value":[{
-"type":"USD",
-"content":"195600"
-}
-]
-}
-],
-"nation":[{
-"value":[{
-"type":"USD",
-"content":"157600"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Median Condo Value"],
-"values":[{
-"neighborhood":[{
-"value":[{
-"type":"USD",
-"content":"178300"
-}
-]
-}
-],
-"city":[{
-"value":[{
-"type":"USD",
-"content":"89500"
-}
-]
-}
-],
-"nation":[{
-"value":[{
-"type":"USD",
-"content":"156200"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Median 2-Bedroom Home Value"],
-"values":[{
-"neighborhood":[{
-"value":[{
-"type":"USD",
-"content":"213800"
-}
-]
-}
-],
-"nation":[{
-"value":[{
-"type":"USD",
-"content":"117600"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Median 3-Bedroom Home Value"],
-"values":[{
-"nation":[{
-"value":[{
-"type":"USD",
-"content":"150700"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Median 4-Bedroom Home Value"],
-"values":[{
-"neighborhood":[{
-"value":[{
-"type":"USD",
-"content":"455800"
-}
-]
-}
-],
-"nation":[{
-"value":[{
-"type":"USD",
-"content":"249000"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Percent Homes Decreasing"],
-"values":[{
-"neighborhood":[{
-"value":[{
-"type":"percent",
-"content":"0.105"
-}
-]
-}
-],
-"city":[{
-"value":[{
-"type":"percent",
-"content":"0.106"
-}
-]
-}
-],
-"nation":[{
-"value":[{
-"type":"percent",
-"content":"0.266"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Percent Listing Price Reduction"],
-"values":[{
-"neighborhood":[{
-"value":[{
-"type":"percent",
-"content":"0.281"
-}
-]
-}
-],
-"city":[{
-"value":[{
-"type":"percent",
-"content":"0.293"
-}
-]
-}
-],
-"nation":[{
-"value":[{
-"type":"percent",
-"content":"0.258"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Median List Price Per Sq Ft"],
-"values":[{
-"neighborhood":[{
-"value":[{
-"type":"USD",
-"content":"150"
-}
-]
-}
-],
-"city":[{
-"value":[{
-"type":"USD",
-"content":"68"
-}
-]
-}
-],
-"nation":[{
-"value":[{
-"type":"USD",
-"content":"98"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Median List Price"],
-"values":[{
-"neighborhood":[{
-"value":[{
-"type":"USD",
-"content":"299000"
-}
-]
-}
-],
-"city":[{
-"value":[{
-"type":"USD",
-"content":"244900"
-}
-]
-}
-],
-"nation":[{
-"value":[{
-"type":"USD",
-"content":"189000"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Median Sale Price"],
-"values":[{
-"neighborhood":[{
-"value":[{
-"type":"USD",
-"content":"207800"
-}
-]
-}
-],
-"city":[{
-"value":[{
-"type":"USD",
-"content":"228600"
-}
-]
-}
-],
-"nation":[{
-"value":[{
-"type":"USD",
-"content":"196100"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Homes For Sale"],
-"values":[{
-"neighborhood":[{
-"value":["0"]
-}
-],
-"city":[{
-"value":["0"]
-}
-],
-"nation":[{
-"value":["0"]
-}
-]
-}
-]
-}
-,
-{
-"name":["Homes Recently Sold"],
-"values":[{
-"neighborhood":[{
-"value":["161"]
-}
-],
-"city":[{
-"value":["1766"]
-}
-],
-"nation":[{
-"value":["336948"]
-}
-]
-}
-]
-}
-,
-{
-"name":["Property Tax"],
-"values":[{
-"neighborhood":[{
-"value":[{
-"type":"USD",
-"content":"5050"
-}
-]
-}
-],
-"city":[{
-"value":[{
-"type":"USD",
-"content":"2565"
-}
-]
-}
-],
-"nation":[{
-"value":[{
-"type":"USD",
-"content":"2086"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Turnover (Sold Within Last Yr.)"],
-"values":[{
-"neighborhood":[{
-"value":[{
-"type":"percent",
-"content":"0.061"
-}
-]
-}
-],
-"city":[{
-"value":[{
-"type":"percent",
-"content":"0.041"
-}
-]
-}
-],
-"nation":[{
-"value":[{
-"type":"percent",
-"content":"0.036"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Median Value Per Sq Ft"],
-"values":[{
-"neighborhood":[{
-"value":[{
-"type":"USD",
-"content":"187"
-}
-]
-}
-],
-"city":[{
-"value":[{
-"type":"USD",
-"content":"128"
-}
-]
-}
-],
-"nation":[{
-"value":[{
-"type":"USD",
-"content":"109"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["1-Yr. Change"],
-"values":[{
-"nation":[{
-"value":[{
-"type":"percent",
-"content":"0.051"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Homes For Sale By Owner"],
-"values":[{
-"neighborhood":[{
-"value":[{
+    {
+    "name":["Median Condo Value"],
+    "values":[{
+    "neighborhood":[{
+    "value":[{
+    "type":"USD",
+    "content":"178300"
+    }
+    ]
+    }
+    ],
+    "city":[{
+    "value":[{
+    "type":"USD",
+    "content":"89500"
+    }
+    ]
+    }
+    ],
+    "nation":[{
+    "value":[{
+    "type":"USD",
+    "content":"156200"
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ,
+    {
+    "name":["Median 2-Bedroom Home Value"],
+    "values":[{
+    "neighborhood":[{
+    "value":[{
+    "type":"USD",
+    "content":"213800"
+    }
+    ]
+    }
+    ],
+    "nation":[{
+    "value":[{
+    "type":"USD",
+    "content":"117600"
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ,
+    {
+    "name":["Median 3-Bedroom Home Value"],
+    "values":[{
+    "nation":[{
+    "value":[{
+    "type":"USD",
+    "content":"150700"
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ,
+    {
+    "name":["Median 4-Bedroom Home Value"],
+    "values":[{
+    "neighborhood":[{
+    "value":[{
+    "type":"USD",
+    "content":"455800"
+    }
+    ]
+    }
+    ],
+    "nation":[{
+    "value":[{
+    "type":"USD",
+    "content":"249000"
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ,
+    {
+    "name":["Percent Homes Decreasing"],
+    "values":[{
+    "neighborhood":[{
+    "value":[{
+    "type":"percent",
+    "content":"0.105"
+    }
+    ]
+    }
+    ],
+    "city":[{
+    "value":[{
+    "type":"percent",
+    "content":"0.106"
+    }
+    ]
+    }
+    ],
+    "nation":[{
+    "value":[{
+    "type":"percent",
+    "content":"0.266"
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ,
+    {
+    "name":["Percent Listing Price Reduction"],
+    "values":[{
+    "neighborhood":[{
+    "value":[{
+    "type":"percent",
+    "content":"0.281"
+    }
+    ]
+    }
+    ],
+    "city":[{
+    "value":[{
+    "type":"percent",
+    "content":"0.293"
+    }
+    ]
+    }
+    ],
+    "nation":[{
+    "value":[{
+    "type":"percent",
+    "content":"0.258"
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ,
+    {
+    "name":["Median List Price Per Sq Ft"],
+    "values":[{
+    "neighborhood":[{
+    "value":[{
+    "type":"USD",
+    "content":"150"
+    }
+    ]
+    }
+    ],
+    "city":[{
+    "value":[{
+    "type":"USD",
+    "content":"68"
+    }
+    ]
+    }
+    ],
+    "nation":[{
+    "value":[{
+    "type":"USD",
+    "content":"98"
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ,
+    {
+    "name":["Median List Price"],
+    "values":[{
+    "neighborhood":[{
+    "value":[{
+    "type":"USD",
+    "content":"299000"
+    }
+    ]
+    }
+    ],
+    "city":[{
+    "value":[{
+    "type":"USD",
+    "content":"244900"
+    }
+    ]
+    }
+    ],
+    "nation":[{
+    "value":[{
+    "type":"USD",
+    "content":"189000"
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ,
+    {
+    "name":["Median Sale Price"],
+    "values":[{
+    "neighborhood":[{
+    "value":[{
+    "type":"USD",
+    "content":"207800"
+    }
+    ]
+    }
+    ],
+    "city":[{
+    "value":[{
+    "type":"USD",
+    "content":"228600"
+    }
+    ]
+    }
+    ],
+    "nation":[{
+    "value":[{
+    "type":"USD",
+    "content":"196100"
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ,
+    {
+    "name":["Homes For Sale"],
+    "values":[{
+    "neighborhood":[{
+    "value":["0"]
+    }
+    ],
+    "city":[{
+    "value":["0"]
+    }
+    ],
+    "nation":[{
+    "value":["0"]
+    }
+    ]
+    }
+    ]
+    }
+    ,
+    {
+    "name":["Homes Recently Sold"],
+    "values":[{
+    "neighborhood":[{
+    "value":["161"]
+    }
+    ],
+    "city":[{
+    "value":["1766"]
+    }
+    ],
+    "nation":[{
+    "value":["336948"]
+    }
+    ]
+    }
+    ]
+    }
+    ,
+    {
+    "name":["Property Tax"],
+    "values":[{
+    "neighborhood":[{
+    "value":[{
+    "type":"USD",
+    "content":"5050"
+    }
+    ]
+    }
+    ],
+    "city":[{
+    "value":[{
+    "type":"USD",
+    "content":"2565"
+    }
+    ]
+    }
+    ],
+    "nation":[{
+    "value":[{
+    "type":"USD",
+    "content":"2086"
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ,
+
+    {
+    "name":["Turnover (Sold Within Last Yr.)"],
+    "values":[{
+    "neighborhood":[{
+    "value":[{
+    "type":"percent",
+    "content":"0.061"
+    }
+    ]
+    }
+    ],
+    "city":[{
+    "value":[{
+    "type":"percent",
+    "content":"0.041"
+    }
+    ]
+    }
+    ],
+    "nation":[{
+    "value":[{
+    "type":"percent",
+    "content":"0.036"
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ,
+
+    {
+    "name":["Median Value Per Sq Ft"],
+    "values":[{
+    "neighborhood":[{
+    "value":[{
+    "type":"USD",
+    "content":"187"
+    }
+    ]
+    }
+    ],
+    "city":[{
+    "value":[{
+    "type":"USD",
+    "content":"128"
+    }
+    ]
+    }
+    ],
+    "nation":[{
+    "value":[{
+    "type":"USD",
+    "content":"109"
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ,
+
+    {
+    "name":["1-Yr. Change"],
+    "values":[{
+    "nation":[{
+    "value":[{
+    "type":"percent",
+    "content":"0.051"
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ,
+
+    {
+    "name":["Homes For Sale By Owner"],
+    "values":[{
+    "neighborhood":[{
+    "value":[{
+
+    }
+    ]
+    }
+    ],
+    "city":[{
+    "value":[{
+
+    }
+    ]
+    }
+    ],
+    "nation":[{
+    "value":[{
+
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ,
+
+    {
+    "name":["New Construction"],
+    "values":[{
+    "neighborhood":[{
+    "value":[{
+
+    }
+    ]
+    }
+    ],
+    "city":[{
+    "value":[{
+
+    }
+    ]
+    }
+    ],
+    "nation":[{
+    "value":[{
+
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ,
+
+    {
+    "name":["Foreclosures"],
+    "values":[{
+    "neighborhood":[{
+    "value":[{
+
+    }
+    ]
+    }
+    ],
+    "city":[{
+    "value":[{
+
+    }
+    ]
+    }
+    ],
+    "nation":[{
+    "value":[{
+
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+]
+
+
 
 }
 ]
 }
-],
-"city":[{
-"value":[{
+]
+}
+]
+}
+,
 
-}
-]
-}
-],
-"nation":[{
-"value":[{
 
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["New Construction"],
-"values":[{
-"neighborhood":[{
-"value":[{
 
-}
-]
-}
-],
-"city":[{
-"value":[{
+  {
+  "name":["Homes & Real Estate"],
+  "tables":[{
+  "table":[{
+  "name":["Homes & Real Estate Data"],
+  "data":[{
+  "attribute":[{
+  "name":["Owners"],
+  "values":[{
+  "neighborhood":[{
+  "value":[{
+  "type":"percent",
+  "content":"0.30087125"
+  }
+  ]
+  }
+  ],
+  "city":[{
+  "value":[{
+  "type":"percent",
+  "content":"0.43220787"
+  }
+  ]
+  }
+  ],
+  "nation":[{
+  "value":[{
+  "type":"percent",
+  "content":"0.66268764"
+  }
+  ]
+  }
+  ]
+  }
+  ]
+  }
+  ,
+  {
+  "name":["Renters"],
+  "values":[{
+  "neighborhood":[{
+  "value":[{
+  "type":"percent",
+  "content":"0.69912875"
+  }
+  ]
+  }
+  ],
+  "city":[{
+  "value":[{
+  "type":"percent",
+  "content":"0.56779213"
+  }
+  ]
+  }
+  ],
+  "nation":[{
+  "value":[{
+  "type":"percent",
+  "content":"0.33731236"
+  }
+  ]
+  }
+  ]
+  }
+  ]
+  }
+  ,
+  {
+  "name":["Median Home Size (Sq. Ft.)"],
+  "values":[{
+  "neighborhood":[{
+  "value":["1281"]
+  }
+  ],
+  "city":[{
+  "value":["1453"]
+  }
+  ]
+  }
+  ]
+  }
+  ,
+  {
+  "name":["Avg. Year Built"],
+  "values":[{
+  "neighborhood":[{
+  "value":["1982"]
+  }
+  ],
+  "city":[{
+  "value":["1962"]
+  }
+  ]
+  }
+  ]
+  }
+  ,
+  {
+  "name":["Single-Family Homes"],
+  "values":[{
+  "neighborhood":[{
+  "value":[{
+  "type":"percent",
+  "content":"0.1099041964647"
+  }
+  ]
+  }
+  ],
+  "city":[{
+  "value":[{
+  "type":"percent",
+  "content":"0.7338085175853"
+  }
+  ]
+  }
+  ]
+  }
+  ]
+  }
+  ,
+  {
+  "name":["Condos"],
+  "values":[{
+  "neighborhood":[{
+  "value":[{
+  "type":"percent",
+  "content":"0.7922682498987"
+  }
+  ]
+  }
+  ],
+  "city":[{
+  "value":[{
+  "type":"percent",
+  "content":"0.1374450940408"
+  }
+  ]
+  }
+  ]
+  }
+  ]
+  }
+  ]
+  }
+  ]
+  }
+  ,
+  {
+  "name":["BuiltYear"],
+  "data":[{
+  "attribute":[{
+  "name":[">2000"],
+  "value":[{
+  "type":"percent",
+  "content":"0.2499109750017"
+  }
+  ]
+  }
+  ,
+  {
+  "name":["1900-1919"],
+  "value":[{
+  "type":"percent",
+  "content":"0.0027775799444"
+  }
+  ]
+  }
+  ,
+  {
+  "name":["1920-1939"],
+  "value":[{
+  "type":"percent",
+  "content":"0.0821166583576"
+  }
+  ]
+  }
+  ,
+  {
+  "name":["1940-1959"],
+  "value":[{
+  "type":"percent",
+  "content":"0.093796738124"
+  }
+  ]
+  }
+  ,
+  {
+  "name":["1960-1979"],
+  "value":[{
+  "type":"percent",
+  "content":"0.2506231749875"
+  }
+  ]
+  }
+  ,
+  {
+  "name":["1980-1999"],
+  "value":[{
+  "type":"percent",
+  "content":"0.3206324335873"
+  }
+  ]
+  }
+  ]
+  }
+  ]
+  }
+  ,
+  {
+  "name":["Census Summary-HomeSize"],
+  "data":[{
+  "attribute":[{
+  "name":["<1000sqft"],
+  "value":[{
+  "type":"percent",
+  "content":"0.3114406779661"
+  }
+  ]
+  }
+  ,
+  {
+  "name":[">3600sqft"],
+  "value":[{
+  "type":"percent",
+  "content":"0.0387711864406"
+  }
+  ]
+  }
+  ,
+  {
+  "name":["1000-1400sqft"],
+  "value":[{
+  "type":"percent",
+  "content":"0.2430790960451"
+  }
+  ]
+  }
+  ,
+  {
+  "name":["1400-1800sqft"],
+  "value":[{
+  "type":"percent",
+  "content":"0.1257768361581"
+  }
+  ]
+  }
+  ,
+  {
+  "name":["1800-2400sqft"],
+  "value":[{
+  "type":"percent",
+  "content":"0.1555790960451"
+  }
+  ]
+  }
+  ,
+  {
+  "name":["2400-3600sqft"],
+  "value":[{
+  "type":"percent",
+  "content":"0.1127824858757"
+  }
+  ]
+  }
+  ]
+  }
+  ]
+  }
+  ,
+  {
+  "name":["Census Summary-HomeType"],
+  "data":[{
+  "attribute":[{
+  "name":["Condo"],
+  "value":[{
+  "type":"percent",
+  "content":"0.7922682498987"
+  }
+  ]
+  }
+  ,
+  {
+  "name":["Other"],
+  "value":[{
+  "type":"percent",
+  "content":"0.0978275536364"
+  }
+  ]
+  }
+  ,
+  {
+  "name":["SingleFamily"],
+  "value":[{
+  "type":"percent",
+  "content":"0.1099041964647"
+  }
+  ]
+  }
+  ]
+  }
+  ]
+  }
+  ,
+  {
+  "name":["Census Summary-Occupancy"],
+  "data":[{
+  "attribute":[{
+  "name":["Own"],
+  "value":[{
+  "type":"percent",
+  "content":"0.30087125"
+  }
+  ]
+  }
+  ,
+  {
+  "name":["Rent"],
+  "value":[{
+  "type":"percent",
+  "content":"0.69912875"
+  }
+  ]
+  }
+  ]
+  }
+  ]
+  }
+  ]
+  }
+  ]
+  }
+,
 
-}
-]
-}
-],
-"nation":[{
-"value":[{
 
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Foreclosures"],
-"values":[{
-"neighborhood":[{
-"value":[{
-
-}
-]
-}
-],
-"city":[{
-"value":[{
-
-}
-]
-}
-],
-"nation":[{
-"value":[{
-
-}
-]
-}
-]
-}
-]
-}
-]
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Homes & Real Estate"],
-"tables":[{
-"table":[{
-"name":["Homes & Real Estate Data"],
-"data":[{
-"attribute":[{
-"name":["Owners"],
-"values":[{
-"neighborhood":[{
-"value":[{
-"type":"percent",
-"content":"0.30087125"
-}
-]
-}
-],
-"city":[{
-"value":[{
-"type":"percent",
-"content":"0.43220787"
-}
-]
-}
-],
-"nation":[{
-"value":[{
-"type":"percent",
-"content":"0.66268764"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Renters"],
-"values":[{
-"neighborhood":[{
-"value":[{
-"type":"percent",
-"content":"0.69912875"
-}
-]
-}
-],
-"city":[{
-"value":[{
-"type":"percent",
-"content":"0.56779213"
-}
-]
-}
-],
-"nation":[{
-"value":[{
-"type":"percent",
-"content":"0.33731236"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Median Home Size (Sq. Ft.)"],
-"values":[{
-"neighborhood":[{
-"value":["1281"]
-}
-],
-"city":[{
-"value":["1453"]
-}
-]
-}
-]
-}
-,
-{
-"name":["Avg. Year Built"],
-"values":[{
-"neighborhood":[{
-"value":["1982"]
-}
-],
-"city":[{
-"value":["1962"]
-}
-]
-}
-]
-}
-,
-{
-"name":["Single-Family Homes"],
-"values":[{
-"neighborhood":[{
-"value":[{
-"type":"percent",
-"content":"0.1099041964647"
-}
-]
-}
-],
-"city":[{
-"value":[{
-"type":"percent",
-"content":"0.7338085175853"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Condos"],
-"values":[{
-"neighborhood":[{
-"value":[{
-"type":"percent",
-"content":"0.7922682498987"
-}
-]
-}
-],
-"city":[{
-"value":[{
-"type":"percent",
-"content":"0.1374450940408"
-}
-]
-}
-]
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["BuiltYear"],
-"data":[{
-"attribute":[{
-"name":[">2000"],
-"value":[{
-"type":"percent",
-"content":"0.2499109750017"
-}
-]
-}
-,
-{
-"name":["1900-1919"],
-"value":[{
-"type":"percent",
-"content":"0.0027775799444"
-}
-]
-}
-,
-{
-"name":["1920-1939"],
-"value":[{
-"type":"percent",
-"content":"0.0821166583576"
-}
-]
-}
-,
-{
-"name":["1940-1959"],
-"value":[{
-"type":"percent",
-"content":"0.093796738124"
-}
-]
-}
-,
-{
-"name":["1960-1979"],
-"value":[{
-"type":"percent",
-"content":"0.2506231749875"
-}
-]
-}
-,
-{
-"name":["1980-1999"],
-"value":[{
-"type":"percent",
-"content":"0.3206324335873"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Census Summary-HomeSize"],
-"data":[{
-"attribute":[{
-"name":["<1000sqft"],
-"value":[{
-"type":"percent",
-"content":"0.3114406779661"
-}
-]
-}
-,
-{
-"name":[">3600sqft"],
-"value":[{
-"type":"percent",
-"content":"0.0387711864406"
-}
-]
-}
-,
-{
-"name":["1000-1400sqft"],
-"value":[{
-"type":"percent",
-"content":"0.2430790960451"
-}
-]
-}
-,
-{
-"name":["1400-1800sqft"],
-"value":[{
-"type":"percent",
-"content":"0.1257768361581"
-}
-]
-}
-,
-{
-"name":["1800-2400sqft"],
-"value":[{
-"type":"percent",
-"content":"0.1555790960451"
-}
-]
-}
-,
-{
-"name":["2400-3600sqft"],
-"value":[{
-"type":"percent",
-"content":"0.1127824858757"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Census Summary-HomeType"],
-"data":[{
-"attribute":[{
-"name":["Condo"],
-"value":[{
-"type":"percent",
-"content":"0.7922682498987"
-}
-]
-}
-,
-{
-"name":["Other"],
-"value":[{
-"type":"percent",
-"content":"0.0978275536364"
-}
-]
-}
-,
-{
-"name":["SingleFamily"],
-"value":[{
-"type":"percent",
-"content":"0.1099041964647"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Census Summary-Occupancy"],
-"data":[{
-"attribute":[{
-"name":["Own"],
-"value":[{
-"type":"percent",
-"content":"0.30087125"
-}
-]
-}
-,
-{
-"name":["Rent"],
-"value":[{
-"type":"percent",
-"content":"0.69912875"
-}
-]
-}
-]
-}
-]
-}
-]
-}
-]
-}
-,
 {
 "name":["People"],
 "tables":[{
-"table":[{
-"name":["People Data"],
-"data":[{
-"attribute":[{
-"name":["Median Household Income"],
-"values":[{
-"neighborhood":[{
-"value":[{
-"currency":"USD",
-"content":"46671.1554277436"
-}
-]
-}
-],
-"city":[{
-"value":[{
-"currency":"USD",
-"content":"37628"
-}
-]
-}
-],
-"nation":[{
-"value":[{
-"currency":"USD",
-"content":"44512.0130806292"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Single Males"],
-"values":[{
-"neighborhood":[{
-"value":[{
-"type":"percent",
-"content":"0.348844373362748"
-}
-]
-}
-],
-"city":[{
-"value":[{
-"type":"percent",
-"content":"0.19333097730053"
-}
-]
-}
-],
-"nation":[{
-"value":[{
-"type":"percent",
-"content":"0.146462187349365"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Single Females"],
-"values":[{
-"neighborhood":[{
-"value":[{
-"type":"percent",
-"content":"0.158890825245112"
-}
-]
-}
-],
-"city":[{
-"value":[{
-"type":"percent",
-"content":"0.151030039418241"
-}
-]
-}
-],
-"nation":[{
-"value":[{
-"type":"percent",
-"content":"0.124578258618535"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Median Age"],
-"values":[{
-"neighborhood":[{
-"value":["36"]
-}
-],
-"city":[{
-"value":["32"]
-}
-],
-"nation":[{
-"value":["36"]
-}
-]
-}
-]
-}
-,
-{
-"name":["Homes With Kids"],
-"values":[{
-"neighborhood":[{
-"value":[{
-"type":"percent",
-"content":"0.113691255382577"
-}
-]
-}
-],
-"city":[{
-"value":[{
-"type":"percent",
-"content":"0.284941229046324"
-}
-]
-}
-],
-"nation":[{
-"value":[{
-"type":"percent",
-"content":"0.313623902816284"
-}
-]
-}
-]
-}
-]
-}
-,
-{
-"name":["Average Household Size"],
-"values":[{
-"neighborhood":[{
-"value":["1.79171443725427"]
-}
-],
-"city":[{
-"value":["2.58"]
-}
-],
-"nation":[{
-"value":["2.58883240001203"]
-}
-]
-}
-]
-}
-,
-{
-"name":["Average Commute Time (Minutes)"],
-"values":[{
-"neighborhood":[{
-"value":["21.111952538466234"]
-}
-],
-"city":[{
-"value":["28.104814870868438"]
-}
-],
-"nation":[{
-"value":["26.375545725891282"]
-}
-]
-}
-]
-}
-]
-}
-]
-}
-,
+  "table":[{
+    "name":["People Data"],
+    "data":[{
+      "attribute":[{
+        "name":["Median Household Income"],
+        "values":[{
+          "neighborhood":[{
+            "value":[{
+              "currency":"USD",
+              "content":"46671.1554277436"
+              }
+            ]
+            }
+          ],
+          "city":[{
+          "value":[{
+          "currency":"USD",
+          "content":"37628"
+          }
+          ]
+          }
+          ],
+          "nation":[{
+          "value":[{
+          "currency":"USD",
+          "content":"44512.0130806292"
+          }
+          ]
+          }
+          ]
+          }
+        ]
+        }
+        ,
+      {
+      "name":["Single Males"],
+      "values":[{
+      "neighborhood":[{
+      "value":[{
+      "type":"percent",
+      "content":"0.348844373362748"
+      }
+      ]
+      }
+      ],
+      "city":[{
+      "value":[{
+      "type":"percent",
+      "content":"0.19333097730053"
+      }
+      ]
+      }
+      ],
+      "nation":[{
+      "value":[{
+      "type":"percent",
+      "content":"0.146462187349365"
+      }
+      ]
+      }
+      ]
+      }
+      ]
+      }
+      ,
+      {
+      "name":["Single Females"],
+      "values":[{
+      "neighborhood":[{
+      "value":[{
+      "type":"percent",
+      "content":"0.158890825245112"
+      }
+      ]
+      }
+      ],
+      "city":[{
+      "value":[{
+      "type":"percent",
+      "content":"0.151030039418241"
+      }
+      ]
+      }
+      ],
+      "nation":[{
+      "value":[{
+      "type":"percent",
+      "content":"0.124578258618535"
+      }
+      ]
+      }
+      ]
+      }
+      ]
+      }
+      ,
+      {
+      "name":["Median Age"],
+      "values":[{
+      "neighborhood":[{
+      "value":["36"]
+      }
+      ],
+      "city":[{
+      "value":["32"]
+      }
+      ],
+      "nation":[{
+      "value":["36"]
+      }
+      ]
+      }
+      ]
+      }
+      ,
+      {
+      "name":["Homes With Kids"],
+      "values":[{
+      "neighborhood":[{
+      "value":[{
+      "type":"percent",
+      "content":"0.113691255382577"
+      }
+      ]
+      }
+      ],
+      "city":[{
+      "value":[{
+      "type":"percent",
+      "content":"0.284941229046324"
+      }
+      ]
+      }
+      ],
+      "nation":[{
+      "value":[{
+      "type":"percent",
+      "content":"0.313623902816284"
+      }
+      ]
+      }
+      ]
+      }
+      ]
+      }
+      ,
+      {
+      "name":["Average Household Size"],
+      "values":[{
+      "neighborhood":[{
+      "value":["1.79171443725427"]
+      }
+      ],
+      "city":[{
+      "value":["2.58"]
+      }
+      ],
+      "nation":[{
+      "value":["2.58883240001203"]
+      }
+      ]
+      }
+      ]
+      }
+      ,
+      {
+      "name":["Average Commute Time (Minutes)"],
+      "values":[{
+      "neighborhood":[{
+      "value":["21.111952538466234"]
+      }
+      ],
+      "city":[{
+      "value":["28.104814870868438"]
+      }
+      ],
+      "nation":[{
+      "value":["26.375545725891282"]
+      }
+      ]
+      }
+      ]
+      }
+      ]
+      }
+    ]
+    }
+    ,
 {
 "name":["Census Summary-AgeDecade"],
 "data":[{

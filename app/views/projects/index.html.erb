@@ -24,10 +24,27 @@
 
 <br /><br />
 
-<% result = @rillow.get_demographics(city: "Las Vegas", state: "Nevada").to_json %>
+<% result = @rillow.get_demographics(city: "Las Vegas", state: "Nevada").to_hash %>
+
+<% getDemographics = fetch_result('http://www.zillow.com/webservice/GetDemographics.htm?zws-id=X1-ZWz1bgh3iq3si3_af1tq&regionid=271856') %>
+<% getDemographics_j = JSON.pretty_generate(JSON.parse(getDemographics)) %>
 
 
-<%= result %>
+
+<hr>
+
+<% getSearchResult = fetch_result('http://www.zillow.com/webservice/GetDemographics.htm?zws-id=X1-ZWz1bgh3iq3si3_af1tq&regionid=268385') %>
+<% getSearchResult_j = JSON.pretty_generate(JSON.parse(getSearchResult)) %>
+
+<% File.open("public/Laguna.json",'w') do |f| f.write(getSearchResult_j) end %>
+
+
+<b><%= result.find_attribute("Median Household Income") %></b><br /><br />
+
+<b>Income: <%= JSON(getDemographics).try(:[],"response").try(:[],0).try(:[],"pages").try(:[],0).try(:[],"page").try(:[],2).try(:[],"tables").try(:[],0).try(:[],"table").try(:[],0).try(:[],"data").try(:[],0).try(:[],"attribute").try(:[],0).try(:[],"name") %>
+<br>
+<b>rid: <%= JSON(getSearchResult_j).try(:[],'response').try(:[],0).try(:[],'results').try(:[],0).try(:[],'result').try(:[],0).try(:[],'localRealEstate').try(:[],0).try(:[],'region').try(:[],0).try(:[],'id') %></b>
+
 
 
 <xmp>

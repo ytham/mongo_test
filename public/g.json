@@ -1,0 +1,126 @@
+{
+  "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "xsi:schemaLocation": "http://www.zillow.com/static/xsd/SearchResults.xsd http://www.zillowstatic.com/vstatic/419b583f682a74b83f007039dd9c49f8/static/xsd/SearchResults.xsd",
+  "xmlns:SearchResults": "http://www.zillow.com/static/xsd/SearchResults.xsd",
+  "request": [
+    {
+      "address": [
+        "15142 Dove Creek Road"
+      ],
+      "citystatezip": [
+        "San Diego, CA"
+      ]
+    }
+  ],
+  "message": [
+    {
+      "text": [
+        "Request successfully processed"
+      ],
+      "code": [
+        "0"
+      ]
+    }
+  ],
+  "response": [
+    {
+      "results": [
+        {
+          "result": [
+            {
+              "zpid": [
+                "60281492"
+              ],
+              "links": [
+                {
+                  "homedetails": [
+                    "http://www.zillow.com/homedetails/15142-Dove-Creek-Rd-San-Diego-CA-92127/60281492_zpid/"
+                  ],
+                  "graphsanddata": [
+                    "http://www.zillow.com/homedetails/15142-Dove-Creek-Rd-San-Diego-CA-92127/60281492_zpid/#charts-and-data"
+                  ],
+                  "mapthishome": [
+                    "http://www.zillow.com/homes/60281492_zpid/"
+                  ],
+                  "comparables": [
+                    "http://www.zillow.com/homes/comps/60281492_zpid/"
+                  ]
+                }
+              ],
+              "address": [
+                {
+                  "street": [
+                    "15142 Dove Creek Rd"
+                  ],
+                  "zipcode": [
+                    "92127"
+                  ],
+                  "city": [
+                    "San Diego"
+                  ],
+                  "state": [
+                    "CA"
+                  ],
+                  "latitude": [
+                    "33.005499"
+                  ],
+                  "longitude": [
+                    "-117.111827"
+                  ]
+                }
+              ],
+              "zestimate": [
+                {
+                  "amount": [
+                    {
+                      "currency": "USD",
+                      "content": "882486"
+                    }
+                  ],
+                  "last-updated": [
+                    "04/23/2013"
+                  ],
+                  "oneWeekChange": [
+                    {
+                      "deprecated": "true"
+                    }
+                  ],
+                  "valueChange": [
+                    {
+                      "duration": "30",
+                      "currency": "USD",
+                      "content": "16621"
+                    }
+                  ],
+                  "valuationRange": [
+                    {
+                      "low": [
+                        {
+                          "currency": "USD",
+                          "content": "705989"
+                        }
+                      ],
+                      "high": [
+                        {
+                          "currency": "USD",
+                          "content": "1076633"
+                        }
+                      ]
+                    }
+                  ],
+                  "percentile": [
+                    "0"
+                  ]
+                }
+              ],
+              "localRealEstate": [
+                {
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

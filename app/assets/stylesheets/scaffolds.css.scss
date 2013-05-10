@@ -9,7 +9,8 @@ body {
   background-color: #fff;
   background-image: url('/assets/background.jpg');
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 1.2em;
@@ -124,14 +125,30 @@ input[type="text"] {
 }
 
 .title {
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: 100;
   line-height: 0.8em;
+  white-space: nowrap;
 }
 
 .about {
   display: inline-block;
+  line-height: 1em;
   width: 550px;
+}
+
+.search_float {
+  top: 75px;
+  left: 50%;
+  position: absolute;
+  margin-left: -285px;
+  input[type="text"], input[type="submit"] {
+    background-color: #cccccc;
+  }
+}
+
+.not_available {
+  color: #aaaaaa;
 }
 
 #google_map {
@@ -148,7 +165,7 @@ input[type="text"] {
   position: absolute;
   top: 0px;
   width: 100%;
-  height: 85px;
+  height: 65px;
   padding-top: 5px;
   background-color: #fff;
   opacity: 0.85;
@@ -158,10 +175,19 @@ input[type="text"] {
 #overlay_bottom {
   position: absolute;
   bottom: 0px;
-  height: 70px;
+  height: 65px;
   width: 100%;
   padding-top: 5px;
   background-color: #fff;
   opacity: 0.85;
   z-index: 98;
+}
+
+#freedom_score {
+  margin-top: 5px;
+}
+
+.howtoblock {
+  font-size: 0.5em;
+  line-height: 0.6em;
 }
