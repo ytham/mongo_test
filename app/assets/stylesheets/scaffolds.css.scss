@@ -7,10 +7,6 @@ html, body {
 
 body {
   background-color: #fff;
-  background-image: url('/assets/background.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 1.2em;
@@ -18,6 +14,15 @@ body {
   text-align: center;
   margin: 0px;
   padding: 0px;
+}
+
+main {
+  background-color: #fff;
+  background-image: url('/assets/background_city.jpg');
+  //background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 p, ol, ul, td {
@@ -49,14 +54,41 @@ div {
   }
 }
 
-#main {
+#main_top {
   text-align: center;
   display: inline-block;
   background-color: #fff;
   opacity: 0.85;
-  width: 600px;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  -moz-box-shadow:    0 0px 15px #000000;
+  -webkit-box-shadow: 0 0px 15px #000000;
+  box-shadow:         0 0px 15px #000000;
+}
+
+#main_search_area {
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  opacity: 0.85;
+  width: 100%;
+  padding: 65px 0px 0px 0px;
+  height: 180px;
+  margin: 0px;
+}
+
+#main_bottom {
+  text-align: center;
+  display: inline-block;
+  background-color: #fff;
+  opacity: 0.85;
+  width: 100%;
   padding: 10px;
-  margin: 20px;
+  margin: 0px;
+  -moz-box-shadow:    0 0px 15px #000000;
+  -webkit-box-shadow: 0 0px 15px #000000;
+  box-shadow:         0 0px 15px #000000;
 }
 
 #notice {
@@ -96,6 +128,10 @@ tr:nth-child(even) {
     background-color: #EEEEEE;
 }
 
+td {
+  white-space: nowrap;
+}
+
 h1 {
   font-size: 2.5em;
   font-weight: 100;
@@ -111,12 +147,13 @@ input[type="text"], input[type="submit"] {
   border-radius: 10px;
   background-color: #7FFF00;
   padding: 10px;
-  font-size: 1em;
+  margin: 5px;
+  font-size: 1.4em;
   text-align: center;
 }
 
 input[type="text"] {
-  width: 450px;
+  width: 500px;
 }
 
 .highlight {
@@ -134,16 +171,24 @@ input[type="text"] {
 .about {
   display: inline-block;
   line-height: 1em;
-  width: 550px;
+  width: 720px;
+}
+
+.floating_text {
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  opacity: 0.85;
 }
 
 .search_float {
   top: 75px;
   left: 50%;
   position: absolute;
-  margin-left: -285px;
+  margin-left: -318px;
   input[type="text"], input[type="submit"] {
     background-color: #cccccc;
+    font-size: 1em;
   }
 }
 
@@ -170,6 +215,9 @@ input[type="text"] {
   background-color: #fff;
   opacity: 0.85;
   z-index: 99;
+  -moz-box-shadow:    0 0px 15px #000000;
+  -webkit-box-shadow: 0 0px 15px #000000;
+  box-shadow:         0 0px 15px #000000;
 }
 
 #overlay_bottom {
@@ -181,6 +229,9 @@ input[type="text"] {
   background-color: #fff;
   opacity: 0.85;
   z-index: 98;
+  -moz-box-shadow:    0 0px 15px #000000;
+  -webkit-box-shadow: 0 0px 15px #000000;
+  box-shadow:         0 0px 15px #000000;
 }
 
 #freedom_score {

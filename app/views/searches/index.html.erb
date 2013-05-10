@@ -1,45 +1,46 @@
-<div id="main">
-<h1>Income Freedom</h1>
-
-<div class="about">
-  When you input an address, this app compares the median income versus the median home price in that house's neighborhood and calculates a score based on this information.  A higher score means that you will have more income freedom.  The US median is 100.  Information is not available for all neighborhoods.  <br /><br />
+<main>
+<div id="main_top">
+  <h1>Income Freedom Calculator</h1>
 </div>
 
-<h2>Search City</h2>
-
-<%= form_for @search do |f| %>
-<p>
-  <%= f.text_field :input, placeholder: "Address, City, State" %>
-</p>
-<p>
-  <%= f.submit "Search!" %>
-</p>
-<% end %>
-
-<br />
-
-<h2>Recent Searches</h2>
-
-<table align="center">
-  <tr>
-    <td align="left"><b>City</b></td>
-    <td><b>Score</b></td>
-  </tr>
-  <% @searches.each do |s| %>
-    <tr>
-      <td align="left"><%= link_to s.address, s %></td>
-      <td><% if s.score.present? %>
-            <%= s.score %>
-          <% else %>
-            <span class="not_available">N/A</span>
-          <% end %>
-      </td>
-    </tr>
+<div id="main_search_area">
+  <%= form_for @search do |f| %>
+    <%= f.text_field :input, placeholder: "Enter Address" %> 
+    <%= f.submit "Search!" %>
   <% end %>
-</table>
-
-<br /><br />
-Created by Yu Jiang Tham<br />
-<span class="howtoblock">Powered by Zillow: 
-&copy; Zillow, Inc., 2006-2013. Use is subject to <a href="/corp/Terms.htm">Terms of Use</a>.  <a href="/wikipages/What-is-a-Zestimate/">What's a Zestimate?</a></span>
+  <br />
+  <span class="floating_text">Information is not available for all neighborhoods.<br />
+  The US median is 100.</span>
 </div>
+
+<div id="main_bottom">
+  <div class="about">
+    When you input an address, city, or zip code, we compare the median income versus the median home price in that house's neighborhood and calculates a score based on this information.  A higher score means that you will have more income freedom.  
+  </div><br /><br />
+
+  <h2>Recent Searches</h2>
+
+  <table align="center">
+    <tr>
+      <td align="left"><b>City</b></td>
+      <td><b>Score</b></td>
+    </tr>
+    <% @searches.each do |s| %>
+      <tr>
+        <td align="left"><%= link_to s.address, s %></td>
+        <td><% if s.score.present? %>
+              <%= s.score %>
+            <% else %>
+              <span class="not_available">N/A</span>
+            <% end %>
+        </td>
+      </tr>
+    <% end %>
+  </table>
+
+  <br /><br />
+  Created by Yu Jiang Tham<br />
+  <span class="howtoblock">Powered by Zillow: 
+  &copy; Zillow, Inc., 2006-2013. Use is subject to <a href="/corp/Terms.htm">Terms of Use</a>.  <a href="/wikipages/What-is-a-Zestimate/">What's a Zestimate?</a></span>
+</div>
+</main>

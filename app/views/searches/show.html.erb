@@ -7,7 +7,7 @@
 
   <div id="freedom_score">
     <span class="highlight">Income Freedom Score: 
-      <% if @search.score == 0 %>
+      <% if @search.score == 0 || @search.score == nil %>
         N/A
       <% else %>
         <%= @search.score %>
@@ -31,14 +31,14 @@
 <div id="overlay_bottom">
   Median Income: 
     <% if @search.median_income.present? %>
-      <b>$<%= @search.median_income %></b> 
+      <b>$<%= number_with_delimiter(@search.median_income, delimiter: ',') %></b> 
     <% else %>
       <span class="not_available">N/A</span>
     <% end %>
       |
   Median Home Price: 
     <% if @search.median_home_price.present? %>
-      <b>$<%= @search.median_home_price %></b> 
+      <b>$<%= number_with_delimiter(@search.median_home_price, delimiter: ',') %></b> 
     <% else %>
       <span class="not_available">N/A</span>
     <% end %>
