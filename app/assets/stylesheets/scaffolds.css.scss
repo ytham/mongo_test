@@ -1,12 +1,13 @@
 $highlightColor: #7FFF00;
 $highlightDarker: #5CCC00;
+$logoUnselected: #cccccc;
 
 html, body {
   height: 100%;
 }
 
 body {
-  background-color: #fff;
+  background-color: #000;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 1.2em;
@@ -14,15 +15,18 @@ body {
   text-align: center;
   margin: 0px;
   padding: 0px;
+  overflow-x: hidden;
 }
 
 main {
-  background-color: #fff;
+  background-color: #000;
   background-image: url('/assets/background_city.jpg');
   //background-attachment: fixed;
   background-size: 100%;
   background-repeat: no-repeat;
   width: 100%;
+  padding: 0px;
+  margin: 0px;
 }
 
 p, ol, ul, td {
@@ -60,6 +64,7 @@ div {
   background-color: #fff;
   opacity: 0.85;
   width: 100%;
+  height: 65px;
   padding: 0px;
   margin: 0px;
   -moz-box-shadow:    0 0px 15px #000000;
@@ -74,7 +79,7 @@ div {
   opacity: 0.85;
   width: 100%;
   padding: 65px 0px 0px 0px;
-  height: 180px;
+  height: 190px;
   margin: 0px;
 }
 
@@ -89,6 +94,47 @@ div {
   -moz-box-shadow:    0 0px 15px #000000;
   -webkit-box-shadow: 0 0px 15px #000000;
   box-shadow:         0 0px 15px #000000;
+}
+
+#logo_area {
+  display: inline-block;
+  width: 720px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#logo {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: -7px 0px 0px 5px;
+  padding: 0px;
+  .logo_block {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    padding: 0px;
+    margin: 0px 4px 0px 4px;
+    line-height: 0em;
+    font-size: 0em;
+  }
+  .highlighted {
+    background-color: $highlightColor;
+  }
+  .not_highlighted {
+    background-color: $logoUnselected;
+  }
+}
+
+.maintitle {
+  font-size: 3em;
+  line-height: 0.5em;
+}
+
+.subtitle {
+  font-size: 1em;
+  line-height: 0.5em;
+  margin: -50px 0 5px 0;
 }
 
 #notice {
@@ -135,6 +181,7 @@ td {
 h1 {
   font-size: 2.5em;
   font-weight: 100;
+  line-height: 0.2em;
 }
 
 h2 {
@@ -156,6 +203,10 @@ input[type="text"] {
   width: 500px;
 }
 
+input[type="submit"] {
+  width: 140px;
+}
+
 .highlight {
   color: $highlightDarker;
   font-weight: bold;
@@ -170,24 +221,36 @@ input[type="text"] {
 
 .about {
   display: inline-block;
+  text-align: center;
   line-height: 1em;
   width: 720px;
+  margin-left: -20px;
+  padding: 0px;
 }
 
 .floating_text {
   display: inline-block;
   background-color: #fff;
+  //font-weight: bold;
   color: #000;
-  opacity: 0.85;
+  font-size: 0.8em;
+  line-height: 1em;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px;
+  margin: 5px;
+  //width: 550px;
+  opacity: 0.9;
 }
 
 .search_float {
-  top: 75px;
+  top: 80px;
   left: 50%;
   position: absolute;
   margin-left: -318px;
   input[type="text"], input[type="submit"] {
-    background-color: #cccccc;
+    background-color: #ccc;
     font-size: 1em;
   }
 }
@@ -206,15 +269,26 @@ input[type="text"] {
   background-color: #000000;
 }
 
+#logo_float {
+  display: inline-block;
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  opacity: 0.2;
+  margin: 0px;
+  padding: 0px;
+  z-index: 99;
+}
+
 #overlay_top {
   position: absolute;
   top: 0px;
   width: 100%;
-  height: 65px;
+  height: 70px;
   padding-top: 5px;
   background-color: #fff;
   opacity: 0.85;
-  z-index: 99;
+  z-index: 98;
   -moz-box-shadow:    0 0px 15px #000000;
   -webkit-box-shadow: 0 0px 15px #000000;
   box-shadow:         0 0px 15px #000000;
@@ -228,14 +302,20 @@ input[type="text"] {
   padding-top: 5px;
   background-color: #fff;
   opacity: 0.85;
-  z-index: 98;
+  z-index: 97;
   -moz-box-shadow:    0 0px 15px #000000;
   -webkit-box-shadow: 0 0px 15px #000000;
   box-shadow:         0 0px 15px #000000;
 }
 
+#copyright_float {
+  position: absolute;
+  bottom: 70px;
+  right: 5px;
+}
+
 #freedom_score {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .howtoblock {

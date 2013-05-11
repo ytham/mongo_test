@@ -22,6 +22,8 @@ module MongoTest
     # -- all .rb files in that directory are automatically loaded.
 
     KEY = YAML.load_file("#{::Rails.root}/config/keys.yml")[::Rails.env]
+    require 'calculations'
+    #Rails::ConsoleMethods.send :include, Calculations::Console
 
     # Custom directories with classes and modules you want to be autoloadable.
     # config.autoload_paths += %W(#{config.root}/extras)

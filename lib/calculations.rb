@@ -1,15 +1,7 @@
-module SearchesHelper
+module Calculations
+  module Console
 
-  def fetch_result(url_string)
-    url = URI.parse(URI.escape(url_string))
-    res = Net::HTTP.get_response(url)
-    doc = XmlSimple.xml_in res.body
-    json = JSON.pretty_generate(JSON.parse(doc.to_json))
-    return json
-  end
-
-
-  def calculate_after_tax_income(income)
+    def calculate_after_tax_income(income)
       bracket_bound = [12750, 48600, 125450, 203150, 398350, 425000]
       bracket_before_tax = [bracket_bound[0], 
                             bracket_bound[1]-bracket_bound[0],
@@ -50,4 +42,15 @@ module SearchesHelper
       return (income_after_tax * 0.85)
     end
 
+    def calculate_mortgage_payment(home_price)
+      p = home_price * 0.8
+      i = 0.035 / 12
+      n = 360
+      monthly_payment = p*((i*(1+i)^n)/((1+i)^n-1))
+    end
+
+    def calculate_score(income, home_price)
+      score = (100 * (((income.to_f/12) - (home_price.to_f/360))) / 3273).to_i
+    end
+  end
 end

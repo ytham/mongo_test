@@ -1,0 +1,17 @@
+<table align="center">
+    <tr>
+      <td align="left"><b>City</b></td>
+      <td><b>Score</b></td>
+    </tr>
+    <% @searches.each do |s| %>
+      <tr>
+        <td align="left"><%= link_to s.address, s %></td>
+        <td><% if s.score.present? %>
+              <%= s.score %>
+            <% else %>
+              <span class="not_available">N/A</span>
+            <% end %>
+        </td>
+      </tr>
+    <% end %>
+  </table>

@@ -1,15 +1,18 @@
 <main>
 <div id="main_top">
-  <h1>Income Freedom Calculator</h1>
+  <div id="logo_area">
+    <%= render 'logo' %>
+    <span class="maintitle">inkomme.</span>
+    <span class="subtitle">The Income Freedom Calculator</span>
+  </div>
 </div>
 
 <div id="main_search_area">
   <%= form_for @search do |f| %>
-    <%= f.text_field :input, placeholder: "Enter Address" %> 
-    <%= f.submit "Search!" %>
+    <%= f.text_field :input, placeholder: "Enter Address" %><%= f.submit "Search!" %>
   <% end %>
   <br />
-  <span class="floating_text">Information is not available for all neighborhoods.<br />
+  <span class="floating_text">Information is not available for all neighborhoods. 
   The US median is 100.</span>
 </div>
 
@@ -20,27 +23,11 @@
 
   <h2>Recent Searches</h2>
 
-  <table align="center">
-    <tr>
-      <td align="left"><b>City</b></td>
-      <td><b>Score</b></td>
-    </tr>
-    <% @searches.each do |s| %>
-      <tr>
-        <td align="left"><%= link_to s.address, s %></td>
-        <td><% if s.score.present? %>
-              <%= s.score %>
-            <% else %>
-              <span class="not_available">N/A</span>
-            <% end %>
-        </td>
-      </tr>
-    <% end %>
-  </table>
+  <%= render 'recent_table' %>
 
   <br /><br />
   Created by Yu Jiang Tham<br />
   <span class="howtoblock">Powered by Zillow: 
-  &copy; Zillow, Inc., 2006-2013. Use is subject to <a href="/corp/Terms.htm">Terms of Use</a>.  <a href="/wikipages/What-is-a-Zestimate/">What's a Zestimate?</a></span>
+  Demographic data &copy; Zillow, Inc., 2006-2013. Use is subject to <a href="/corp/Terms.htm">Terms of Use</a>.  <a href="/wikipages/What-is-a-Zestimate/">What's a Zestimate?</a></span>
 </div>
 </main>

@@ -2,6 +2,11 @@
   <%= render 'google_map_script' %>
 <% end %>
 
+<div id="logo_float">
+  <%= render 'logo' %>
+  <span class="maintitle">inkomme.</span>
+</div>
+
 <div id="overlay_top">
   <span class="title"><%= @search.address %></span>
 
@@ -43,5 +48,10 @@
       <span class="not_available">N/A</span>
     <% end %>
   <br /><br />
-  <%= link_to 'Back to Searches', searches_path %>
+  <%= link_to 'Back to Main', root_url %>
+</div>
+
+<div id="copyright_float">
+  <span class="howtoblock">Powered by Zillow: 
+  &copy; Zillow, Inc., 2006-2013. Use is subject to <a href="/corp/Terms.htm">Terms of Use</a>.  <a href="/wikipages/What-is-a-Zestimate/">What's a Zestimate?</a></span>
 </div>

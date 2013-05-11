@@ -2,6 +2,8 @@ MongoTest::Application.routes.draw do
   resources :searches
   resources :projects
 
+  root to: 'searches#index'
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
