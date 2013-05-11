@@ -28,4 +28,7 @@ MongoTest::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  ActiveSupport::Dependencies.autoload_paths << File::join( Rails.root, 'lib')
+ActiveSupport::Dependencies.explicitly_unloadable_constants << 'Calculations'
 end
