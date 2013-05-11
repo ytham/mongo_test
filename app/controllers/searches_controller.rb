@@ -2,7 +2,8 @@ class SearchesController < ApplicationController
   include Calculations
 
   def index
-    @searches = Search.all.reverse.first(20)
+    #@searches = Search.all.reverse.first(20)
+    @searches = Search.all.sample(20)
     @search = Search.new
     respond_to do |format|
       format.html
