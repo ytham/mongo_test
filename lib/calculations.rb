@@ -50,6 +50,9 @@ module Calculations
 
   def calculate_score(income, home_price)
     Rails.logger.debug ">>>>> CALCULATE SCORE: ( #{income} - #{home_price} )"
+    if income.blank? || home_price.blank?
+      return nil
+    end
     score = (100 * (calculate_after_tax_income(income.to_f) - calculate_mortgage_payment(home_price.to_f)) / 2159).to_i
   end
 
