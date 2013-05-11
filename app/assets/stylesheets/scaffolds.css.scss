@@ -18,10 +18,10 @@ body {
   overflow-x: hidden;
 }
 
-main {
+#main {
   background-color: #000;
   background-image: url('/assets/background_city.jpg');
-  //background-attachment: fixed;
+  background-attachment: scroll;
   background-size: 100%;
   background-repeat: no-repeat;
   width: 100%;
