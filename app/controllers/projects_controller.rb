@@ -26,6 +26,7 @@ class ProjectsController < ApplicationController
   # GET /projects/new.json
   def new
     @project = Project.new
+    @total_searches = Search.all.count
 
     respond_to do |format|
       format.html # new.html.erb
